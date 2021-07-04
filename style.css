@@ -5,7 +5,7 @@ body {
 h1 {
     font-size: 50px;
 }
-h2{
+h2 {
     font-size: 40px;
 }
 .person-name {
@@ -58,6 +58,40 @@ p {
     font-weight: 700;
     color: white;
 }
-.para2{
-    padding-right:130px;
+.para2 {
+    padding-right: 130px;
+}
+.learner {
+    color: orange;
+}
+.experience-area{
+    margin-top: 150px;
+}
+.experience-boxmodel {
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: -10px;
+}
+
+.experience-item {
+    box-shadow: 20px 20px 20px gray;
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 35px;
+}
+#stack-web-dev {
+    border-left: 5px solid grey;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+#baby-web-dev {
+    border-left: 5px solid grey;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center ;
+    margin-top: 200px;
 }
